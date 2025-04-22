@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "App1",
-    "slug": "App1",
+    "name": "app1",
+    "slug": "app1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
