@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+// import Demo from "./Components/Day 1/Demo"
+// import State from "./Components/Day 2/State/Name"
+import Props from "./Components/Day 2/Props/Parent"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello world ! <Text style={{color:"green"}}>I am the best in the world</Text></Text>
-      <Text>Hello world ! <Text style={{color:"green"}}>I am the best in the world</Text></Text>
+      <Props />
       <StatusBar style="auto" />
     </View>
   );
