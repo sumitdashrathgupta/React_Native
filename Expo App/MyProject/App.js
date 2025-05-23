@@ -5,12 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
 // import MapList from "./Components/Day 4/MapList"
-import Grid from "./Components/Day 5/Grid"
+// import Grid from "./Components/Day 5/Grid"
+import SectionList from "./Components/Day 4/SectionList"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Grid />
+      <SectionList />
       <StatusBar style="auto" />
     </View>
   );

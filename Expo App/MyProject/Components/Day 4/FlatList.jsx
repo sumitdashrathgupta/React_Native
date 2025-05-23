@@ -3,7 +3,6 @@
 import { Text, View ,FlatList} from "react-native";
 
 const List=()=>{
-
     const users=[
         {
             id:1,
@@ -71,7 +70,9 @@ const List=()=>{
         <View>
             <FlatList 
             data={users}
-            renderItem={({item})=><Text style={{margin:5,backgroundColor:"blue",color:"white",fontSize:20,padding:20}}>{item.name}</Text>}
+            renderItem={({item})=><View><Text style={{margin:5,backgroundColor:"blue",color:"white",fontSize:20,padding:20}}>{item.name}</Text>
+            <Text>{item.age}</Text>
+            </View>}
             keyExtractor={item=>item.id}
             />
         </View>

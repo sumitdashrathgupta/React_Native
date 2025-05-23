@@ -4,7 +4,6 @@ const Grid=()=>{
     return(
         <>
         <View>
-            <Text>Hello grid</Text>
         </View>
         </>
     )
