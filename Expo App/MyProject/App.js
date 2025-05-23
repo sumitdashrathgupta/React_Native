@@ -4,12 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 // import State from "./Components/Day 2/State/Name"
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
-import MapList from "./Components/Day 4/MapList"
+// import MapList from "./Components/Day 4/MapList"
+import Grid from "./Components/Day 5/Grid"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <MapList />
+      <Grid />
       <StatusBar style="auto" />
     </View>
   );
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
     marginBottom:20,
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'start',
+    alignItems: 'center',
     justifyContent: 'center',
   },
 });
