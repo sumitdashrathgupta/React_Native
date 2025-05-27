@@ -4,13 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 // import State from "./Components/Day 2/State/Name"
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
+// import Botton from "./Components/Day 6/Botton"
 // import MapList from "./Components/Day 4/MapList"
-import Grid from "./Components/Day 5/Grid"
+//import Grid from "./Components/Day 5/Grid"
+import Radio_buttons from "./Components/Day 6/Radio_buttons"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Grid />
+      <Radio_buttons />
       <StatusBar style="auto" />
     </View>
   );
