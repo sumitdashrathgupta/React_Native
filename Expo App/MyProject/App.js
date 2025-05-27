@@ -5,6 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
 // import Botton from "./Components/Day 6/Botton"
+// import MapList from "./Components/Day 4/MapList"
+//import Grid from "./Components/Day 5/Grid"
 import Radio_buttons from "./Components/Day 6/Radio_buttons"
 
 export default function App() {
@@ -18,6 +20,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    marginTop:30,
+    marginBottom:20,
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
