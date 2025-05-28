@@ -5,14 +5,19 @@ import { StyleSheet, Text, View } from 'react-native';
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
 // import Botton from "./Components/Day 6/Botton"
+<<<<<<< HEAD
+// import Radio_buttons from "./Components/Day 6/Radio_buttons"
+import Loder from "./Components/Day 7/Loder"
+=======
 // import MapList from "./Components/Day 4/MapList"
 //import Grid from "./Components/Day 5/Grid"
 import Radio_buttons from "./Components/Day 6/Radio_buttons"
+>>>>>>> 46474a30d4b82ffc3e4b9cb35f510f0cc25e3264
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Radio_buttons />
+      <Loder />
       <StatusBar style="auto" />
     </View>
   );
