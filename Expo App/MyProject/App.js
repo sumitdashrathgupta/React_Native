@@ -5,12 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 // import Props from "./Components/Day 2/Props/Parent"
 // import From from "./Components/Day 3/Form"
 // import Botton from "./Components/Day 6/Botton"
-import Radio_buttons from "./Components/Day 6/Radio_buttons"
+// import Radio_buttons from "./Components/Day 6/Radio_buttons"
+import Loder from "./Components/Day 7/Loder"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Radio_buttons />
+      <Loder />
       <StatusBar style="auto" />
     </View>
   );
